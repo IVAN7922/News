@@ -67,13 +67,6 @@ article p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.newads::before {
-    content: "New";
-    color: rgb(218, 28, 28);
-    font-family: Georgia, Times, 'Times New Roman', serif;
-    font-size: x-large;
-}
-
 footer {
     padding-top: 20px;
     padding-bottom: 60px;
