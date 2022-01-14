@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background: url(https://images.unsplash.com/photo-1638965045080-b553818513e3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1113&q=80) bottom no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: #000000;
+    font-size: 4rem;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.news {
+    background-color: rgb(173, 196, 191);
+    padding: 10px 0 10px;
+}
+
+article:nth-child(2n) {
+    background-color: rgb(93, 180, 90);
+}
+
+article {
+    height: 600px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto 5px;
+    padding: 5px 15px;
+    border-bottom: 1px dashed rgb(16, 179, 16);
+}
+
+article a {
+    color: rgb(47, 17, 156);
+    text-decoration: none;
+}
+
+article a:hover {
+    color: #c30cd4;
+}
+
+article h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+}
+
+.article-meta {
+    color: rgb(231, 14, 68);
+    margin-bottom: 5px;
+}
+
+article img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+article p {
+    color: rgb(119, 16, 16);
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.new::before {
+    content: "New";
+    color: rgb(218, 28, 28);
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+footer .links {
+    margin-bottom: 50px;
+}
+
+footer .links>a {
+    color: #e91240;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.copyright {
+    color: rgb(11, 26, 15);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
