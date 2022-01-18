@@ -58,6 +58,7 @@ article h2 {
 article img {
     height: 400px;
     width: 100%;
+    max-width: 700px;
     object-fit: cover;
 }
 
