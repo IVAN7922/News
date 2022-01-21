@@ -21,7 +21,7 @@ h1 {
 .news {
     background-color: rgb(35, 150, 160);
     margin: 0 auto;
-    padding: 0 auto;
+    padding: 0;
 }
 
 article:nth-child(2n) {
@@ -33,7 +33,7 @@ article {
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
-    padding: 0 auto;
+    padding: 0;
 
 }
 
@@ -66,7 +66,7 @@ article img {
 article p {
     color: rgb(119, 16, 16);
     font-size: 15px;
-    text-align: justify;
+    text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
