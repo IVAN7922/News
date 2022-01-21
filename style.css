@@ -70,7 +70,7 @@ article p {
 }
 
 .new::before {
-    content: "New";
+    content: "New ";
     color: rgb(218, 28, 28);
     font-family: Georgia, Times, 'Times New Roman', serif;
     font-size: x-large;
