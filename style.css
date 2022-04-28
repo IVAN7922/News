@@ -29,11 +29,14 @@ article:nth-child(2n) {
 }
 
 article {
-    height: 600px;
-    width: 100%;
+    min-height: 400px;
+    width: auto;
     max-width: 800px;
     margin: 0 auto;
-    padding: 15px 0;
+    padding: 0 15px;
+    border-bottom-style: outset;
+    border-bottom-width: 3px;
+    border-bottom-color: rgb(0, 255, 34);
 
 }
 
