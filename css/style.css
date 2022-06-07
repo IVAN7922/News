@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background: url(https://images.unsplash.com/photo-1638965045080-b553818513e3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1113&q=80) bottom no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: black;
+    font-size: 3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-style: italic;
+}
+
+.news {
+    background-color: rgb(127, 185, 142);
+}
+
+article {
+    min-height: 400px;
+    width: auto;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 15px;
+    border-bottom-style: outset;
+    border-bottom-width: 3px;
+    border-bottom-color: rgb(0, 255, 34);
+}
+
+article:nth-child(2n) {
+    background-color: rgb(93, 180, 90);
+}
+
+article a {
+    color: rgb(47, 17, 156);
+    text-decoration: none;
+}
+
+article a:hover {
+    color: #c30cd4;
+    cursor: pointer;
+}
+
+article h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+.article-meta {
+    color: rgb(231, 14, 68);
+    padding: 0 10px 10px 10px;
+}
+
+article img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+article p {
+    padding: 10px;
+    color: rgb(119, 16, 16);
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+    
+}
+
+.new::before {
+    content: "New ";
+    color: rgb(218, 28, 28);
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+}
+
+footer {
+    min-height: 100px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+footer .links {
+    margin-bottom: 40px;
+
+}
+
+footer .links>a {
+    color: #e91240;
+    padding: 0 20px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.copyright {
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-align: center;
+}
