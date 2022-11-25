@@ -8,6 +8,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0 15px;
     height: 400px;
     background: url(https://images.unsplash.com/photo-1638965045080-b553818513e3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1113&q=80) bottom no-repeat;
     background-size: cover;
